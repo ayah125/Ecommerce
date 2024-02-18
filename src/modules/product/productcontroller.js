@@ -3,7 +3,6 @@ import slugify from "slugify";
 import { catcherror } from "../middleware/catcherror.js";
 import { productmodel } from "../../databases/models/productmodel.js";
 import { deletOne } from "../modules/handler/handlers.js";
-import { json } from "express";
 import { Apifeatures } from "../utils/APIFeatures.js";
 const addproduct = async (req, res, next) => {
   if (req.body.title) req.body.slug = slugify(req.body.title);
