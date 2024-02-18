@@ -1,5 +1,5 @@
 import { globalerror } from "../../middleware/globalerror.js";
-import productroute from "../../product/productroutes.js";
+
 import addressRouter from "../addresses/address.routes.js";
 
 import authRouter from "../auth/auth.route.js";
@@ -8,6 +8,7 @@ import cartRouter from "../cart/cart.routes.js";
 import categoryroute from "../category/categoryroutes.js";
 import couponroute from "../coupon/coupon.routes.js";
 import orderRouter from "../order/order.routes.js";
+import productroute from "../product/productroutes.js";
 import reviewroute from "../review/reviewroutes.js";
 import subcategoryroute from "../subcategory/subcategoryroutes.js";
 import userRoute from "../user/userroute.js";
