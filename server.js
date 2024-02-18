@@ -15,7 +15,7 @@ const port = 3000;
 // git add README.md
 // git commit -m "first commit"
 // git branch -M main
-// git remote add origin https://github.com/ayah125/ECCOMMERCE.git
+// git remote add origin https://github.com/ayah125/ecommercee.git
 // git push -u origin main
 app.use(express.json());
 app.use(cors());
