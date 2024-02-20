@@ -12,8 +12,8 @@ import {
   updateproductVal,
 } from "./productValidation.js";
 
-import { validation } from "../middleware/validation.js";
 import { uploadfileds } from "../../../service/file upload/fileupload.js";
+import { validation } from "../../middleware/validation.js";
 const productroute = express.Router();
 productroute
   .route("/")
