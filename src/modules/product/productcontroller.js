@@ -1,9 +1,9 @@
 import slugify from "slugify";
 
-import { catcherror } from "../middleware/catcherror.js";
-import { productmodel } from "../../databases/models/productmodel.js";
-import { deletOne } from "../modules/handler/handlers.js";
-import { Apifeatures } from "../utils/APIFeatures.js";
+import { productmodel } from "../../../databases/models/productmodel.js";
+import { deletOne } from "../handler/handlers.js";
+import { Apifeatures } from "../../utils/APIFeatures.js";
+import { catcherror } from "../../middleware/catcherror.js";
 const addproduct = async (req, res, next) => {
   if (req.body.title) req.body.slug = slugify(req.body.title);
   if (req.files.imgcover) req.body.imgcover = req.files.imgcover[0].filename;

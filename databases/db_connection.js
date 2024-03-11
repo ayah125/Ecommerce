@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 export function dbconnection() {
   mongoose
     .connect(
-      "mongodb+srv://ayah:S2j9urx-QNGUZWx@cluster0.14jwvfs.mongodb.net/test"
+      "mongodb+srv://ayahh:dVFPYcxEha2Nn3K1@cluster0.14jwvfs.mongodb.net/test"
     )
     .then(() => {
       console.log("database connected");
@@ -12,4 +12,4 @@ export function dbconnection() {
     });
 }
 //ayah
-//S2j9urx-QNGUZWx
+//dVFPYcxEha2Nn3K1
