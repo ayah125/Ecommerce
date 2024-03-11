@@ -10,12 +10,12 @@ import dotenv from "dotenv";
 import cors from "cors";
 dotenv.config();
 const app = express();
-// echo "# EOO" >> README.md
+// echo "# ecommerce" >> README.md
 // git init
 // git add README.md
 // git commit -m "first commit"
 // git branch -M main
-// git remote add origin https://github.com/ayah125/EOO.git
+// git remote add origin https://github.com/ayah125/ecommerce.git
 // git push -u origin main
 app.use(express.json());
 app.use(cors());
